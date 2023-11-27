@@ -5,34 +5,48 @@ CSNETWK MP is a File Exchange System, allowing clients to be able to store, shar
 
 ## TODO
 
+### Bugs
+- [ ] C2
+- [ ] C3
+- [ ] C4
+- [ ] D4
+- [ ] F1
+- [ ] F2
+- [ ] F3
+
+### Bonus
+- [ ] GUI
+- [x] Broadcast messaging feature
+- [x] Unicast messaging feature
+
 ### Implement Input Commands
-- [ ] Connect to the server application
-- [ ] Disconnect to the server application
-- [ ] Register a unique handle or alias
-- [ ] Send file to server
-- [ ] Request directory file list from a server
-- [ ] Fetch a file from a server
-- [ ] Request command help to output all Input
+- [x] Connect to the server application
+- [x] Disconnect to the server application
+- [x] Register a unique handle or alias
+- [x] Send file to server
+- [x] Request directory file list from a server
+- [x] Fetch a file from a server
+- [x] Request command help to output all Input
         Syntax commands for references
 
 ### Impelement System Messages
-- [ ] Message upon successful connection to the server
-- [ ] Message upon successful disconnection to the server
-- [ ] Message upon successful registration of a handle or alias
-- [ ] Message upon successful sending a file to server with timestamp
-- [ ] Message upon successful receipt of the directory list from the server
-- [ ] Message upon successful receipt of the requested file
+- [x] Message upon successful connection to the server
+- [x] Message upon successful disconnection to the server
+- [x] Message upon successful registration of a handle or alias
+- [x] Message upon successful sending a file to server with timestamp
+- [x] Message upon successful receipt of the directory list from the server
+- [x] Message upon successful receipt of the requested file
 
 ### Implement Error Messages
-- [ ] Message upon unsuccessful connection to the server due to the
+- [x] Message upon unsuccessful connection to the server due to the
 server not running or incorrect IP and Port combination
-- [ ] Message upon unsuccessful disconnection to the server due to not
+- [x] Message upon unsuccessful disconnection to the server due to not
 currently being connected
-- [ ] Message upon unsuccessful registration of a handle or alias due to
+- [x] Message upon unsuccessful registration of a handle or alias due to
 registered "handle" or alias already exists
-- [ ] Message upon unsuccessful sending of a file that does not
+- [x] Message upon unsuccessful sending of a file that does not
 exist in the client directory
-- [ ] Message upon unsuccessful fetching of a file that does not
+- [x] Message upon unsuccessful fetching of a file that does not
 exist in the server directory
-- [ ] Message due to command syntax
-- [ ] Message due to incorrect or invalid parameters
+- [x] Message due to command syntax
+- [x] Message due to incorrect or invalid parameters
