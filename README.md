@@ -1,52 +1,27 @@
-# CSNETK-MP
+# File Exchange System
 
 ## Description
-CSNETWK MP is a File Exchange System, allowing clients to be able to store, share and fetch files from a single server TCP or UDP protocol 
+The File Exchange System is comprised of a server application and a client application. This program allows clients to store, share, and fetch files from a single server using TCP or UDP protocols. Additionally, it supports both unicast and broadcast communication methods.
 
-## TODO
+## Running the program
+You can run the program using the batch script called **run.bat**, or if you prefer to run it manually, you can do the following:
 
-### Bugs
-- [ ] C2
-- [ ] C3
-- [ ] C4
-- [ ] D4
-- [ ] F1
-- [ ] F2
-- [ ] F3
+Change the directory to the server
+```
+cd server
+```
 
-### Bonus
-- [ ] GUI
-- [x] Broadcast messaging feature
-- [x] Unicast messaging feature
+Run the server
+```
+python server.py
+```
 
-### Implement Input Commands
-- [x] Connect to the server application
-- [x] Disconnect to the server application
-- [x] Register a unique handle or alias
-- [x] Send file to server
-- [x] Request directory file list from a server
-- [x] Fetch a file from a server
-- [x] Request command help to output all Input
-        Syntax commands for references
+Change the directory to the client
+```
+cd client
+```
 
-### Impelement System Messages
-- [x] Message upon successful connection to the server
-- [x] Message upon successful disconnection to the server
-- [x] Message upon successful registration of a handle or alias
-- [x] Message upon successful sending a file to server with timestamp
-- [x] Message upon successful receipt of the directory list from the server
-- [x] Message upon successful receipt of the requested file
-
-### Implement Error Messages
-- [x] Message upon unsuccessful connection to the server due to the
-server not running or incorrect IP and Port combination
-- [x] Message upon unsuccessful disconnection to the server due to not
-currently being connected
-- [x] Message upon unsuccessful registration of a handle or alias due to
-registered "handle" or alias already exists
-- [x] Message upon unsuccessful sending of a file that does not
-exist in the client directory
-- [x] Message upon unsuccessful fetching of a file that does not
-exist in the server directory
-- [x] Message due to command syntax
-- [x] Message due to incorrect or invalid parameters
+Run the client
+```
+python client.py
+```
